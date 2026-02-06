@@ -1,0 +1,24 @@
+Input files (expected):
+1) orders.csv:
+- order_id
+- branch_id
+- quantity
+- required_date
+
+2) capacity.csv:
+- origin_id
+- max_units
+
+3) transport_costs.csv:
+- origin_id
+- branch_id
+- cost_per_unit
+- lead_time_days
+
+Output files (expected):
+1) plan.csv:
+- shipment_id
+- origin_id
+- branch_id
+- shipment_date
+- quantity

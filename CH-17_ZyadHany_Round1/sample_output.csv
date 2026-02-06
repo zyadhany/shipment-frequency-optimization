@@ -1,0 +1,4 @@
+shipment_id,origin_id,branch_id,shipment_date,quantity
+S001,DC01,B001,2026-02-09,120
+S002,DC01,B002,2026-02-09,80
+S003,DC02,B003,2026-02-10,40

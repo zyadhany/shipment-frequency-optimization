@@ -1,0 +1,17 @@
+orders.csv
+order_id,branch_id,quantity,required_date
+O001,B001,120,2026-02-10
+O002,B002,80,2026-02-11
+O003,B003,40,2026-02-12
+
+capacity.csv
+origin_id,max_units
+DC01,300
+DC02,250
+DC03,200
+
+transport_costs.csv
+origin_id,branch_id,cost_per_unit,lead_time_days
+DC01,B001,1.20,1
+DC01,B002,1.50,2
+DC02,B003,2.00,2
